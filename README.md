@@ -3,24 +3,24 @@ This is assignment 2 for BeyondMD
 
 ## Some useful commands below:
 
-pip install django
-brew install postgresql
-brew install psycopg2
-pip install psycopg2-binary
+`pip install django`
+`brew install postgresql`
+`brew install psycopg2`
+`pip install psycopg2-binary`
 
 
-** Create App **
+**Create Project**
 
-django-admin startproject todoproject
-
-
-** Create App **
-
-python manage.py startapp todos
+`django-admin startproject todoproject`
 
 
-** Migrations
+**Create App**
 
-python manage.py makemigrations todos
-python manage.py sqlmigrate todos 0001
-python manage.py migrate
+`python manage.py startapp todos`
+
+
+**Migrations**
+
+`python manage.py makemigrations todos`
+`python manage.py sqlmigrate todos 0001`
+`python manage.py migrate`
