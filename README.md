@@ -29,3 +29,8 @@ This is assignment 2 for BeyondMD
 `python manage.py sqlmigrate todos 0001`
 
 `python manage.py migrate`
+
+
+**Run Application**
+
+`python manage.py runserver`
